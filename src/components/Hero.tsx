@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Stats from './Stats'
+import Leaderboard from './Leaderboard'
+import Feesplit from './FeeSplit'
 
 function Hero() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -33,12 +35,12 @@ function Hero() {
       {/* Main Content */}
       <div className="relative z-10 w-full text-center px-4 sm:px-6 lg:px-8">
         {/* Main Title */}
-        <div className="mb-8 -mt-[10px] flex justify-center items-center gap-4 flex-wrap py-1">
+        <div className="mb-8 mt-[100px] flex justify-center items-center gap-4 flex-wrap py-1">
           {/* STAY */}
           <h1 className="text-6xl sm:text-7xl lg:text-8xl xl:text-8xl font-black text-white leading-none">
             STAY
           </h1>
-
+        
           {/* LOUD with gradient and glow */}
           <div className="relative inline-block">
             <h1 className="text-6xl sm:text-7xl lg:text-8xl xl:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-400 to-red-500 leading-none animate-gradient">
@@ -162,6 +164,8 @@ function Hero() {
           </div>
         </div> */}
       <Stats/>
+      <Leaderboard/>
+      <Feesplit/>
       </div>
     </section>
   );
