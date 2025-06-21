@@ -1,7 +1,7 @@
 
 function Stats() {
   return (
-    <section className="relative py-16 overflow-hidden">
+    <section className="relative py-16 overflow-hidden mt-[50px]">
       {/* Background */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gray-900/30 backdrop-blur-sm border border-gray-800/50 rounded-3xl mx-4 sm:mx-6 lg:mx-8"></div>
