@@ -1,14 +1,14 @@
-import { useState } from "react";
+// import { useState } from "react";
 import Stats from './Stats'
 import Leaderboard from './Leaderboard'
 import Feesplit from './FeeSplit'
 
 function Hero() {
-  const [isPlaying, setIsPlaying] = useState(false);
+  // const [isPlaying, setIsPlaying] = useState(false);
 
-  const handlePlayVideo = () => {
-    setIsPlaying(!isPlaying);
-  };
+  // const handlePlayVideo = () => {
+  //   setIsPlaying(!isPlaying);
+  // };
 
   return (
     <section className="relative min-h-screen bg-black pt-4 overflow-hidden flex items-center w-full">
